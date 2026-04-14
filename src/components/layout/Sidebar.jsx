@@ -18,7 +18,7 @@ export default function Sidebar() {
     ];
 
     return (
-        <aside className="fixed top-16 left-0 w-64 h-[calc(100vh-4rem)] flex flex-col border-r border-[#2c4a66] bg-[#355c7d]">
+        <aside className="fixed top-16 left-0 w-56 h-[calc(100vh-4rem)] flex flex-col border-r border-[#2c4a66] bg-[#355c7d]">
 
             {/* MENU */}
             <nav className="flex-1 px-3 py-4 space-y-1">
@@ -84,7 +84,7 @@ export default function Sidebar() {
 
                 {/* LOGOUT */}
                 <button
-                    className="w-full flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium text-[#f8b195]/80 transition-all duration-200 hover:bg-[#f67280]/20 hover:text-white"
+                    className="cursor-pointer w-full flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium text-[#f8b195]/80 transition-all duration-200 hover:bg-[#f67280]/20 hover:text-white"
                 >
                     <LogOut className="h-5 w-5" />
                     Sair
