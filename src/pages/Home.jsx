@@ -9,7 +9,7 @@ export default function Home() {
             <div className="w-full max-w-5xl space-y-6">
 
                 {/* BACKGROUND */}
-                <div/>
+                <div />
 
                 {/* HERO */}
                 <Card className="p-6 text-center flex flex-col items-center">
@@ -143,7 +143,7 @@ export default function Home() {
                 </Card>
 
                 {/* ABOUT */}
-                <Card>
+                <Card className="text-center flex flex-col items-center">
                     <h2 className="text-lg font-semibold text-[#355c7d] mb-2">
                         About this guide
                     </h2>
